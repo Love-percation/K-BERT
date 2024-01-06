@@ -247,9 +247,9 @@ def main():
     args.vocab = vocab
 
     # Build bert model.
-    # A pseudo target is added.
-    args.target = "bert"
-    model = build_model(args)
+    # A pseudo target is added. 
+    args.target = "bert" 
+    model = build_model(args) 
 
     # Load or initialize parameters.
     if args.pretrained_model_path is not None:
@@ -576,3 +576,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    

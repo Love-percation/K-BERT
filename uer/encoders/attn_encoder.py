@@ -46,3 +46,4 @@ class AttnEncoder(nn.Module):
             hidden = self.self_attn[i](hidden, hidden, hidden, mask)
             
         return hidden
+    
