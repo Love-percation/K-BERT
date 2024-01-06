@@ -144,3 +144,6 @@ class KnowledgeGraph(object):
         
         return know_sent_batch, position_batch, visible_matrix_batch, seg_batch
 
+
+
+

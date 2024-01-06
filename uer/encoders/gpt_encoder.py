@@ -40,3 +40,4 @@ class GptEncoder(nn.Module):
         for i in range(self.layers_num):
             hidden = self.transformer[i](hidden, mask)
         return hidden
+

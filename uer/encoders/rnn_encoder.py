@@ -73,3 +73,4 @@ class GruEncoder(nn.Module):
             return torch.zeros(self.layers_num*2, batch_size, self.hidden_size, device=device)
         else:
             return torch.zeros(self.layers_num, batch_size, self.hidden_size, device=device)
+

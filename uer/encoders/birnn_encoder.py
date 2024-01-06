@@ -44,3 +44,4 @@ class BilstmEncoder(nn.Module):
     def init_hidden(self, batch_size, device):
         return (torch.zeros(self.layers_num, batch_size, self.hidden_size, device=device),
                 torch.zeros(self.layers_num, batch_size, self.hidden_size, device=device))
+

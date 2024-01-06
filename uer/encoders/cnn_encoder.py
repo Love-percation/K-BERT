@@ -81,3 +81,4 @@ class GatedcnnEncoder(nn.Module):
         output = hidden.transpose(1,2).contiguous().view(batch_size, seq_len, self.hidden_size)
 
         return output
+    
